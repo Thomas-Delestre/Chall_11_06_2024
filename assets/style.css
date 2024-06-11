@@ -1,0 +1,27 @@
+.video-link {
+    position: absolute;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#img {
+    scale: 0.5;
+    display: none;
+    margin-right: 700px;
+    margin-top: 300px;
+}
+
+#video-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
